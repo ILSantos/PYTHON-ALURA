@@ -11,4 +11,4 @@ Repositório com atividades do curso de formação python da plataforma de curso
     + implementação do jogo da forca
 
 - Introdução a Orientação à Objetos
-    + 
+    + implementação de conta bancária
