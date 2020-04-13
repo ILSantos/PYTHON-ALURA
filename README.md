@@ -12,3 +12,7 @@ Repositório com atividades do curso de formação python da plataforma de curso
 
 - Introdução a Orientação à Objetos
     + implementação de conta bancária
+    
+[2] Se aprofundando em detalhes da linguagem 
+
+- Avançando na orientação a objetos
