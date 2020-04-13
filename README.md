@@ -16,3 +16,5 @@ Repositório com atividades do curso de formação python da plataforma de curso
 [2] Se aprofundando em detalhes da linguagem 
 
 - Avançando na orientação a objetos
+    + implementação de uma playlist de programas de tv
+   
