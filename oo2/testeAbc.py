@@ -2,7 +2,7 @@ from collections import MutableSequence
 
 
 class MinhaListinhaMutavel(MutableSequence):
-    pass
+  pass
 
 
 objetoValidado = MinhaListinhaMutavel()

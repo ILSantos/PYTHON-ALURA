@@ -1,44 +1,44 @@
 class Programa:
-    def __init__(self, nome, ano):
-        self.__nome = nome
-        self.ano = ano
-        self.__likes = 0
+  def __init__(self, nome, ano):
+    self.__nome = nome
+    self.ano = ano
+    self.__likes = 0
 
-    @property
-    def likes(self):
-        return self.__likes
+  @property
+  def likes(self):
+    return self.__likes
 
-    def dar_likes(self):
-        self.__likes += 1
+  def dar_likes(self):
+    self.__likes += 1
 
-    @property
-    def nome(self):
-        return self.__nome
+  @property
+  def nome(self):
+    return self.__nome
 
-    @nome.setter
-    def nome(self, novo_nome):
-        self.__nome = novo_nome.title()
+  @nome.setter
+  def nome(self, novo_nome):
+    self.__nome = novo_nome.title()
 
-    def __str__(self):
-        return f'Nome: {self.nome} Likes: {self.likes}'
+  def __str__(self):
+    return f'Nome: {self.nome} Likes: {self.likes}'
 
 
 class Filme(Programa):
-    def __init__(self, nome, ano, duracao):
-        super().__init__(nome, ano)
-        self.duracao = duracao
+  def __init__(self, nome, ano, duracao):
+    super().__init__(nome, ano)
+    self.duracao = duracao
 
-    def __str__(self):
-        return f'Nome: {self.nome} - {self.duracao} min - Likes: {self.likes}'
+  def __str__(self):
+    return f'Nome: {self.nome} - {self.duracao} min - Likes: {self.likes}'
 
 
 class Serie(Programa):
-    def __init__(self, nome, ano, temporadas):
-        super().__init__(nome, ano)
-        self.temporadas = temporadas
+  def __init__(self, nome, ano, temporadas):
+    super().__init__(nome, ano)
+    self.temporadas = temporadas
 
-    def __str__(self):
-        return f'Nome: {self.nome} - {self.temporadas} temporadas - Likes: {self.likes}'
+  def __str__(self):
+    return f'Nome: {self.nome} - {self.temporadas} temporadas - Likes: {self.likes}'
 
 
 vingadores = Filme('vingadores - guerra infinita', 2018, 160)
@@ -53,4 +53,4 @@ atlanta.dar_likes()
 listinha = [atlanta, vingadores]
 
 for programa in listinha:
-    print(programa)
+  print(programa)
